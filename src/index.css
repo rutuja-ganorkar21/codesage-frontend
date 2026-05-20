@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Browser ka built-in eye icon remove */
+input::-ms-reveal,
+input::-ms-clear {
+    display: none;
+}
